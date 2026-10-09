@@ -1,0 +1,15 @@
+{
+  "name": "rx9-telegram-listener",
+  "version": "1.0.0",
+  "description": "MTProto listener for RX9 — pushes Telegram messages to Base44 webhook in real-time",
+  "main": "telegram-listener.js",
+  "scripts": {
+    "start": "node telegram-listener.js"
+  },
+  "dependencies": {
+    "telegram": "^2.26.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
